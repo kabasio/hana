@@ -1,0 +1,165 @@
+/*全体*/
+
+h1,h2,h3 {
+    font-family: 'Poiret One', cursive;
+}
+
+h2 {
+    font-size: 44px;
+    color: #b79bae;
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+    color: #5c6268;
+}
+
+@font-face{ 
+	font-family: 'myWebFont'; /* お好きな名前にしましょう */
+	src: url('font/rounded-l-mplus-subset.eot'); /* IE9以上用 */
+	src: url('/Users/s000720/Downloads/MODI_irohamaru_2016_0727/irohamaru-Regular.ttf') format('embedded-opentype'), /* IE8以前用 */
+		url('/Users/s000720/Downloads/MODI_irohamaru_2016_0727/irohamaru-Regular.ttf') format('woff'), /* モダンブラウザ用 */
+		url('/Users/s000720/Downloads/MODI_irohamaru_2016_0727/irohamaru-Regular.ttf') format('truetype'); /* iOS, Android用 */
+	font-weight: normal; /* 念の為指定しておきます */
+	font-style: normal;
+}
+p {
+    font-family: 'myWebFont';
+    color: #5c6268;
+    line-height:30px;
+}
+/*ヘッダー*/
+header {
+    height: 80px;
+}
+
+.grobalnabi {
+    text-align: center;
+}
+
+.grobalnabi li {
+    font-family: 'Poiret One', cursive;
+    font-size: 24px;
+    display: inline-flex;
+    color: #5c6268;
+    line-height: 50px;
+    vertical-align: middle;
+    margin: auto 50px;
+    margin-bottom: 1px;
+}
+
+.grobalnabi :hover {
+    border-bottom: #5c6268 solid 1px;
+    filter :brightness(150%);  
+}
+.$liabout {
+    border-bottom: #5c6268 solid 1px;
+}
+/*メインイメージ*/
+.mainimage {
+    max-width: 120%;
+}
+h1 {
+    position: absolute;
+    margin:130px 50px;
+    font-size: 65px;
+    color: #ffffff;
+    text-shadow: #5c6268 1px 2px ;
+}
+
+.mainimage p {
+    position: absolute;
+    margin:230px 50px;
+    font-size: 20px;
+}
+/*about*/
+.about p {
+    text-align: center;
+    margin: 70px 0px;
+}
+
+/*gallery*/
+.seachtab {
+    text-align: center;
+}
+
+.seachtab li {
+    font-family: 'Poiret One', cursive;
+    font-size: 24px;
+    display: inline-flex;
+    color: rgb(91, 96, 102);
+    line-height: 50px;
+    vertical-align: middle;
+    margin: auto 50px;
+}
+
+.seachtab li:hover {
+    border-bottom: #5c6268 solid 1px;
+    filter :brightness(150%);  
+}
+
+.galleryimages {
+    width:300px;
+    height: 300px;
+    margin:30px;
+    display:inline-block;
+    
+}
+
+.galleryblock {
+    text-align: center;
+}
+/*Creator*/
+.creator h2 {
+    text-align: left;
+    margin-left: 200px;
+    margin-top:50px;
+}
+.creator h3 {
+    text-align: left;
+    margin-left: 200px;
+}
+
+.creator p {
+    text-align: left;
+    margin-left: 200px;
+}
+
+.creatortext {
+    float: left;
+}
+.creatortext p {
+    margin-top: 60px;
+}
+.creatorimage {
+    float: left;
+    margin-left: 50px;
+}
+
+.clear {
+    clear: both;
+}
+/*Contact*/
+.contact {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom:50px;
+}
+
+/*フッター*/
+
+footer{
+    height: 80px;
+    border-top: solid rgba(91, 96, 102, .3)1px;
+}
+.copyright{
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+    margin-top: 30px;
+}
+.ctabutton:hover {
+    filter :brightness(115%);
+}
+
+
