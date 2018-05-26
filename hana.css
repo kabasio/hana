@@ -58,7 +58,7 @@ header {
 }
 /*メインイメージ*/
 .mainimage {
-    max-width: 120%;
+    max-width: 100%;
 }
 h1 {
     position: absolute;
