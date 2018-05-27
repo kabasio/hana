@@ -4,7 +4,8 @@ a {
     text-decoration: none;
 }
 a:hover {
-     text-decoration: none;
+     color: #5c6268;
+     border-bottom: #5c6268 solid 1px;
     }
 
 h1,h2,h3 {
@@ -98,14 +99,10 @@ header {
     margin: auto 50px;
     margin-bottom: 1px;
 }
-
-.grobalnabi :hover {
-    border-bottom: #5c6268 solid 1px;
+.grobalnabi li :hover {
     filter :brightness(150%);  
 }
-.$liabout {
-    border-bottom: #5c6268 solid 1px;
-}
+
 /*メインイメージ*/
 .mainimage {
     max-width: 100%;
@@ -143,6 +140,7 @@ h1 {
     line-height: 50px;
     vertical-align: middle;
     margin: auto 50px;
+    margin-bottom: 1px;
 }
 
 .seachtab li:hover {
