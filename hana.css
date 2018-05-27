@@ -1,3 +1,4 @@
+/*【PCビュー】*/
 /*全体*/
 a { 
     color: #5c6268;
@@ -5,7 +6,6 @@ a {
 }
 a:hover {
      color: #5c6268;
-     border-bottom: #5c6268 solid 1px;
     }
 
 h1,h2,h3 {
@@ -101,6 +101,7 @@ header {
 }
 .grobalnabi li :hover {
     filter :brightness(150%);  
+    border-bottom: #5c6268 solid 1px;
 }
 
 /*メインイメージ*/
@@ -212,4 +213,50 @@ footer{
 }
 
 
-/*スマホビュー*/
+/*【スマホビュー】*/
+@media screen and (min-width:414px){
+p {
+    font-size: 20px;
+}
+/*ヘッダー*/
+.grobalnabi li {
+    font-family: 'Poiret One', cursive;
+    font-size: 30px;
+    display: inline-flex;
+    line-height: 50px;
+    vertical-align: middle;
+    margin: auto 50px;
+    margin-bottom: 1px;
+}
+/*mainimage*/
+
+h1 {
+    text-align: center;
+    margin:130px 50px;
+    font-size: 80px;
+    color: #b79bae;
+    text-shadow: #5c6268 1px 2px ;
+}
+
+.mainimage img {
+    visibility: hidden;
+}
+.mainp {
+   text-align: center; 
+   font-size: 50px;
+}
+
+.seachtab li {
+    font-family: 'Poiret One', cursive;
+    font-size: 24px;
+    display: inline-flex;
+    color: rgb(91, 96, 102);
+    line-height: 50px;
+    vertical-align: middle;
+    margin: auto 50px;
+    margin-bottom: 1px;
+}
+/*Creator*/
+
+
+}
