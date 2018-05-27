@@ -4,6 +4,7 @@ console.log("hi");
 $(window).on('load',function(){
     $('h1').addClass('showUp');
     $('h2').addClass('showUp');
+    $('.mainp').addClass('showUp');
 });
 
 
@@ -53,3 +54,25 @@ $(window).on('load',function(){
         });
     });
 });
+
+//アンカーするする
+$(function(){
+    03
+        $('a[href^=#]').click(function(){
+    04
+            var speed = 800;
+    05
+            var href= $(this).attr("href");
+    06
+            var target = $(href == "#" || href == "" ? 'html' : href);
+    07
+            var position = target.offset().top;
+    08
+            $("html, body").animate({scrollTop:position}, speed, "swing");
+    09
+            return false;
+    10
+        });
+    11
+    });
+    

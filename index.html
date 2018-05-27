@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
     <link href="hana.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script type="text/javascript" src="hana.js"></script>
 </head>
 <body>
@@ -22,18 +23,19 @@
     </header>
    <div class="mainimage">
     <h1>Hana`s Handmade Shop</h1>
-    <p>あなただけの「かわいい」を届ける、ハンドメイドアクセサリーショップ</p>
+    <p class="mainp">あなただけの「かわいい」を届ける、ハンドメイドアクセサリーショップ</p>
     <img class="mainimage" src="hana_images/mainimagev2.jpg" alt="mainimage">
    </div> 
     
-   <div class="about">
-       <h2 id="about">What is Hana`s Handmade Shop?</h2>
+   <div id="about" class="about">
+       <h2>What is Hana`s Handmade Shop?</h2>
        <p>Hana`s Handmade Shopは、オリジナルハンドメイド<br>
           アクセサリーを販売しています。あなただけの特別な<br>
           アクセサリーを、ひとつひとつ丁寧にお作りし、あなたのもとに届けます。</p>
    </div>
+   <div id="gallery"></div>
    <div class="gallery fade-up">
-       <h2 id="gallery">Gallery</h2>
+       <h2>Gallery</h2>
        <ul class="seachtab">
            <li>All</li>
            <li>Cute</li>
@@ -50,9 +52,9 @@
        <img class="galleryimages" src="hana_images/IMG_8293.JPG" alt="galleryimages">
     </div>
    </div>
-   <div class="clear"></div> 
+   <div id="creator" class="clear"></div> 
    <div class="creator fade-up">
-       <h2 id="creator">Creator</h2>
+       <h2 >Creator</h2>
     <div class="creatortext">  
        <h3>Hana Hirata(17)</h3>
        <p>福岡に暮らす高校3年生。学校へ通う<br>
@@ -65,8 +67,8 @@
     </div>  
     <div class="clear"></div>         
    </div>
-   <div class="contact fade-up">
-       <h2 id="contact">Contact</h2>
+   <div id="contact" class="contact fade-up">
+       <h2>Contact</h2>
        <p>作品詳細・受注製作などのお問い合わせはこちらから</p>
        <a href="https://www.instagram.com/hananan_handmade/" target="blank"><img class="ctabutton" src="hana_images/ctabutton.png" alt="ctabutton"></a>
    </div>

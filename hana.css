@@ -11,7 +11,7 @@ h1,h2,h3 {
     font-family: 'Poiret One', cursive;
 }
 
-h1,h2 {
+h1,h2,.mainp{
         opacity: 0;
         transition: .7s;
         margin-top: 170px;
@@ -25,6 +25,12 @@ h1.showUp {
   h2.showUp {
     opacity: 1;
     margin-top: 70px;
+  }
+
+
+.mainp.showUp {
+    opacity: 1;
+    margin-top: 220px;
   }
 
 h2 {
@@ -51,6 +57,7 @@ p {
     font-family: 'myWebFont';
     color: #5c6268;
     line-height:30px;
+    font-size: 19px;
 }
 
 .fade-in {
@@ -120,7 +127,7 @@ h1 {
 
 .about p {
     text-align: center;
-    margin: 70px 0px;
+    margin: 50px 0px;
 }
 
 /*gallery*/
@@ -207,3 +214,4 @@ footer{
 }
 
 
+/*スマホビュー*/
