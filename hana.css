@@ -11,6 +11,22 @@ h1,h2,h3 {
     font-family: 'Poiret One', cursive;
 }
 
+h1,h2 {
+        opacity: 0;
+        transition: .7s;
+        margin-top: 170px;
+}
+
+h1.showUp {
+    opacity: 1;
+    margin-top: 120px;
+  }
+
+  h2.showUp {
+    opacity: 1;
+    margin-top: 70px;
+  }
+
 h2 {
     font-size: 44px;
     color: #b79bae;
@@ -101,6 +117,7 @@ h1 {
     font-size: 20px;
 }
 /*about*/
+
 .about p {
     text-align: center;
     margin: 70px 0px;

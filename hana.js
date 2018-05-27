@@ -2,8 +2,8 @@ console.log("hi");
 
 
 $(window).on('load',function(){
-  $('h1').hide().fadeIn('1000');
-  $('.about').hide().fadeIn('1000');        
+    $('h1').addClass('showUp');
+    $('h2').addClass('showUp');
 });
 
 
