@@ -212,51 +212,33 @@ footer{
     filter :brightness(115%);
 }
 
-/*【スマホビュー】
-@media screen and (min-width:300px){
-p {
-    font-size: 20px;
-}
-/*ヘッダー
-.grobalnabi li {
-    font-family: 'Poiret One', cursive;
-    font-size: 30px;
-    display: inline-flex;
-    line-height: 50px;
-    vertical-align: middle;
-    margin: auto 50px;
-    margin-bottom: 1px;
-}
-/*mainimage
-
-h1 {
-    text-align: center;
-    margin:130px 50px;
-    font-size: 80px;
-    color: #b79bae;
-    text-shadow: #5c6268 1px 2px ;
-}
+/*【スマホビュー】*/
+@media screen and (max-width:480px){
 
 .mainimage img {
     visibility: hidden;
 }
-.mainp {
-   text-align: center; 
-   font-size: 50px;
+
+/*全体*/
+
+header {
+    height: 40px;
 }
 
-.seachtab li {
-    font-family: 'Poiret One', cursive;
-    font-size: 24px;
-    display: inline-flex;
-    color: rgb(91, 96, 102);
-    line-height: 50px;
-    vertical-align: middle;
-    margin: auto 50px;
-    margin-bottom: 1px;
-}
-/*Creator
+.mainp.showUp {
+    opacity: 1;
+    margin-top: 300px;
+  }
 
-
+h2 {
+    font-size: 30px;
+    color: #b79bae;
+    text-align: center;
 }
-*/
+
+h2.showUp {
+    opacity: 1;
+    margin-top: 350px;
+  }
+
+}*/
