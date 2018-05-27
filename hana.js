@@ -1,7 +1,14 @@
 console.log("hi");
 
+
+$(window).on('load',function(){
+  $('h1').hide().fadeIn('1000');
+  $('.about').hide().fadeIn('1000');        
+});
+
+
   $(window).on('load',function(){
-	
+
 	// fade-up
     $(window).scroll(function (){
         $('.fade-up').each(function(){
@@ -20,10 +27,10 @@ console.log("hi");
             } else {
                 $(this).css({
                         'opacity':'0',
-                        'transform':'translateY(70px)',
-                        '-webkit-transform':'translateY(70px)',
-                        '-moz-transform':'translateY(70px)',
-                        '-ms-transform':'translateY(70px)'
+                        'transform':'translateY(120px)',
+                        '-webkit-transform':'translateY(120px)',
+                        '-moz-transform':'translateY(120px)',
+                        '-ms-transform':'translateY(120px)'
                 });
             }
         });
@@ -31,7 +38,6 @@ console.log("hi");
 });
 
 $(window).on('load',function(){
-
 	// fade-in
     $(window).scroll(function (){
         $('.fade-in').each(function(){
