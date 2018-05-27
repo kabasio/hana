@@ -213,12 +213,12 @@ footer{
 }
 
 
-/*【スマホビュー】*/
-@media screen and (min-width:414px){
+/*【スマホビュー】
+@media screen and (min-width:300px){
 p {
     font-size: 20px;
 }
-/*ヘッダー*/
+/*ヘッダー
 .grobalnabi li {
     font-family: 'Poiret One', cursive;
     font-size: 30px;
@@ -228,7 +228,7 @@ p {
     margin: auto 50px;
     margin-bottom: 1px;
 }
-/*mainimage*/
+/*mainimage
 
 h1 {
     text-align: center;
@@ -256,7 +256,8 @@ h1 {
     margin: auto 50px;
     margin-bottom: 1px;
 }
-/*Creator*/
+/*Creator
 
 
 }
+*/
